@@ -1,5 +1,6 @@
 # EasyPish Challenge 1
 ![Intro](https://github.com/JacobAndrewRandall/HTB-OSINT/blob/main/HTB-OSINT/docs/EasyPish/Images/Intro.png)
+
 From the description we can see that the customers of `secure-startup.com` are getting *convincing* phishing emails.
 This points to the idea that the email service may be getting spoofed by attackers allowing them to send emails posing
 as the legit domain `@secure-startup.com` this means that it is likely a problem caused by the configuration of the
