@@ -8,7 +8,7 @@ mail server for the site.
 
 ## Looking into the mail server
 A way to scan for the configuration is using a tool built in to most distros of Linux called
-`dig` or `**D**omain **I**nformation **G**roper`. After running `dig TXT secure-startup.com` through the CLI to view
+`dig` or **D**omain **I**nformation **G**roper. After running `dig TXT secure-startup.com` through the CLI to view
 the website TXT records where the mail servers are configured it returns what looks to be a partial flag in the 
 answer section in the TXT record's input `HTB{RIP_SPF_Always_2nd`.
 
