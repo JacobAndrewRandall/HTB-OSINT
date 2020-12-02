@@ -1,5 +1,5 @@
 # EasyPish Challenge 1
-![Intro](/Images/Intro.png)
+![Intro](https://github.com/JacobAndrewRandall/HTB-OSINT/blob/main/HTB-OSINT/docs/EasyPish/Images/Intro.png)
 From the description we can see that the customers of `secure-startup.com` are getting *convincing* phishing emails.
 This points to the idea that the email service may be getting spoofed by attackers allowing them to send emails posing
 as the legit domain `@secure-startup.com` this means that it is likely a problem caused by the configuration of the
@@ -11,7 +11,7 @@ A way to scan for the configuration is using a tool built in to most distros of 
 the website TXT records where the mail servers are configured it returns what looks to be a partial flag in the 
 answer section in the TXT record's input `HTB{RIP_SPF_Always_2nd`.
 
-![Dig](/Images/digScan.png)
+![Dig](https://github.com/JacobAndrewRandall/HTB-OSINT/blob/main/HTB-OSINT/docs/EasyPish/Images/digScan.png)
 
 This partial flag gives me encouragement that I am looking in the right place, since I now know that I need to look
 further into the mail server
