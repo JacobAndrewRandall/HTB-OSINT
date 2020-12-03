@@ -5,6 +5,6 @@ Hack The box has a category of challenges based around OSINT(**O**pen **S**ource
 scenarios involving identifying companies exposed data and digital footprints that can be legally accessesed and potentially used to carry out further attacks. The challenges are fun and are great for gaining knowledge that can be commonly applied in the real world.
 
 ## Index of challenges
-1. [Easy Phish](docs/EasyPhish)
-2. [Infiltration](docs/Infiltration)
-3. [We Have A Leak](docs/WeHaveALeak)
+1. [Easy Phish](https://github.com/JacobAndrewRandall/HTB-OSINT/tree/main/HTB-OSINT/docs/EasyPish)
+2. [Infiltration](docs/Infiltration/)
+3. [We Have A Leak](docs/WeHaveALeak/)
