@@ -15,10 +15,10 @@ answer section in the TXT record's input `HTB{RIP_SPF_Always_2nd`.
 ![Dig](https://github.com/JacobAndrewRandall/HTB-OSINT/blob/main/HTB-OSINT/docs/EasyPish/Images/digScan.png)
 
 This partial flag gives me encouragement that I am looking in the right place, since I now know that I need to look
-further into the mail server. After doing some more digging I ran a scan on the DMARC for the mail server using 
-`dig TXT _dmarc.secure-startup.com` which returned the second half of the flag in the TXT field for DMARC
+further into the mail server. After doing some more digging I ran a scan on the DMARC to view the DNS record for email policies, this is because if something is misconfigured in the policies of the mail server it may create a vulnerable attack surface for spoofing emails. An example of this is mistaking the `p=none` field for a field that protects against data that failed authentication when in reality all it does is notifies the domain owner wether the data failed or passed, data still gets send through regaurdless of a pass or fail which isn't good if you asume it rejects the failed data. After running
+`dig TXT _dmarc.secure-startup.com` it returns the second half of the flag in the TXT field for DMARC
 
 ![dmarc](https://github.com/JacobAndrewRandall/HTB-OSINT/blob/main/HTB-OSINT/docs/EasyPish/Images/digDmarc.png)
 
-I appended the two halfs and submitted the flag which won me the challenge
+I appended the two halfs and submitted the flag which won me the challenge! (I'm not allowed to show the full code due to the terms and conditions on Hack The Box)
 
